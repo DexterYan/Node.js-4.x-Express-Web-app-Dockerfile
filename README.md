@@ -27,15 +27,18 @@ This repository contains Dockerfile of Node.js 4.x for dockerizing a Node.js web
     $ curl -i localhost:49160
     ```
  2. Mac
-    ```
-    $ docker-machine ls
+    ```  
+    $ docker-machine ls  
+    
     $ curl $(docker-machine ip VM_NAME):49160
     ```
     For example
     ```
-    $ docker-machine ls
+    $ docker-machine ls  
+    
     NAME      ACTIVE   DRIVER       STATE     URL  SWARM
-    default   *      virtualbox   Running   tcp://ip:port
+    default   *      virtualbox   Running   tcp://ip:port  
+    
     $ curl $(docker-machine ip default):49160
     ```
     
